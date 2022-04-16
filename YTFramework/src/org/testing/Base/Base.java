@@ -19,6 +19,7 @@ public class Base
 	@BeforeMethod
 	public void bmethod() throws IOException
 	{
+		System.out.println("changes done*************");
 		System.setProperty("webdriver.chrome.driver","");
 		driver=new ChromeDriver();
 		driver.get("https://www.youtube.com");
